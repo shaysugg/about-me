@@ -13,6 +13,7 @@ iOS and Swift Related projects that I've done so far:
  * [YadAvar](#yadavar)
  * [Rewardo](#rewardo)
  * [Resimage](#resimage)
+ * [SegmentedPageViewController](#segmentedpageviewcontroller)
  
 
  ## ComicKhan
@@ -37,7 +38,7 @@ An app for reading comic files with .cbz , .cbr, .pdf formats.
 ### ✅ Things that I learned:
 
 * More advance CoreData: using NSfetchResultController to automatically commit CoreData changes into UI,
-Learn how to use coreData relations between entities. How to rewrite the CoreData stack from scratch that use in memory storage for testing purposes. How to use ValueTransformer to store custom NSObjects in CoreData.
+Learn how to use CoreData relations between entities. How to rewrite the CoreData stack from scratch that use in memory storage for testing purposes. How to use ValueTransformer to store custom NSObjects in CoreData.
 
 * How to work with FileManager: create directories, copy and paste files, get directory contents, …
 
@@ -59,7 +60,7 @@ Learn how to use coreData relations between entities. How to rewrite the CoreDat
 
 * Understanding the CoreData stack and how its components related together.
 
-* Learning How to use memory graph to resolving memory issues. 
+* Learning How to use memory graph for resolving memory issues. 
 
 ### ⬇️ Download
 * [**Appstore**](https://apps.apple.com/us/app/comickhan/id1516810943)
@@ -86,7 +87,7 @@ My first project, a farsi todo-list app which using Shamsi calendar to save todo
 * How to use local notification. set and trigger them programmatically.
 
 ### 😬 Challenges:
-- Don’t know enough about MVC then. So codebase became a little bit messy and hard to maintain and update.
+* Don’t know enough about MVC then. So codebase became a little bit messy and hard to maintain and update.
 
 ### ⬇️ Download:
 *[Project archived - Unfortunately don't have enough time to update it anymore.]*
@@ -100,7 +101,7 @@ My first project, a farsi todo-list app which using Shamsi calendar to save todo
 I got hired by a team of developers who is been working on Rewardo Application. I was responsible for writing and maintaining the iOS client app. It uses REST api to connect with backend server. The app allows users to sign-up, create challenges, participate in other users challenges and win prizes.
 
 
-🛠Technologies that been used: **Swift, MVVM, RXSwift, Alamofire, SwiftPackageManager**
+🛠Technologies that been used: **Swift, MVVM, RXSwift, Alamofire, SwiftPackageManager, XCTest**
 
 ### ✅ Things that I learned:
 
@@ -112,15 +113,25 @@ I got hired by a team of developers who is been working on Rewardo Application. 
 
 * Fully mastered on building the whole app UI programmatically without using storyboard.
 
+* Avoid writing unnecessary NSConstraint codes by using StackViews.
+
 * How to use SwiftPackageManager to install libraries instead CocoaPods.
 
 * How to build an asynchronous Image Loader which store images that fetched in a local cache to prevent extra internet data usage.
 
 * Getting more familiar with using Git branching techniques.
 
+### 😬 Challenges:
+
+* Advance Alamofire like network error handeling, refreshing tokens, sending form data.
+
+* Write a wrapper for working with NSkeychain and encrypt critical data.
+
+* App has a lots of ViewModel and managing their dependencies and deciding when to break classes to small classes was challenging.
+
 ## Resimage
 
-A command line tool for resizing and compression images
+A command line tool for resizing and compression images.
 
 <img src="images/resimage/01.png">
 
@@ -135,21 +146,11 @@ A command line tool for resizing and compression images
 
 ## SegmentedPageViewController
 
-A UIPageViewController synced with a custom SegmentedControll 
+A UIPageViewController synced with a custom SegmentedControll.
 
 <img src="images/spvc/01.gif">
 
 🛠Technologies that been used: **Swift, UIKit**
 
-### Repo
+### ⬇️ Repo
 * [**Github**](https://github.com/shaysugg/SegmentedPageViewController)
-
-## Contact me
-* [**Gmail**](mailto:metrosug@gmail.com)
-* [**Github**](https://github.com/shaysugg/)
-
-<style>
-img {
-  width: 500px;
-}
-</style>
