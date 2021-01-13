@@ -13,6 +13,7 @@ iOS and Swift Related projects that I've done so far:
  * [YadAvar](#yadavar)
  * [Rewardo](#rewardo)
  * [Resimage](#resimage)
+ * [SuperHeroUI](#superheroesui)
  * [SegmentedPageViewController](#segmentedpageviewcontroller)
  
 
@@ -33,7 +34,7 @@ An app for reading comic files with .cbz , .cbr, .pdf formats.
   </tr>
  </table>
 
-🛠Technologies that been used: **Swift, CoreData, MVC ,FileManager, XCTest, CocoaPods**
+🛠Technologies that been used: `Swift`, `CoreData`, `MVC` ,`FileManager`, `XCTest`, `CocoaPods`
 
 ### ✅ Things that I learned:
 
@@ -78,7 +79,7 @@ My first project, a farsi todo-list app which using Shamsi calendar to save todo
   <tr>
 </table>
 
- 🛠Technologies that been used: **Swift, CoreData**
+ 🛠Technologies that been used: `Swift`, `CoreData`
 
 ### ✅ Things that I learned: 
 * How to build an iOS app from 0 to 100
@@ -101,7 +102,7 @@ My first project, a farsi todo-list app which using Shamsi calendar to save todo
 I got hired by a team of developers who is been working on Rewardo Application. I was responsible for writing and maintaining the iOS client app. It uses REST api to connect with backend server. The app allows users to sign-up, create challenges, participate in other users challenges and win prizes.
 
 
-🛠Technologies that been used: **Swift, MVVM, RXSwift, Alamofire, SwiftPackageManager, XCTest**
+🛠Technologies that been used: `Swift`, `MVVM`, `RXSwift`, `Alamofire`, `SwiftPackageManager`, `XCTest`
 
 ### ✅ Things that I learned:
 
@@ -113,7 +114,7 @@ I got hired by a team of developers who is been working on Rewardo Application. 
 
 * Fully mastered on building the whole app UI programmatically without using storyboard.
 
-* Avoid writing unnecessary NSConstraint codes by using StackViews.
+* Avoid writing unnecessary constraint setup codes by using StackViews.
 
 * How to use SwiftPackageManager to install libraries instead CocoaPods.
 
@@ -127,7 +128,7 @@ I got hired by a team of developers who is been working on Rewardo Application. 
 
 * Write a wrapper for working with NSkeychain and encrypt critical data.
 
-* App has a lots of ViewModel and managing their dependencies and deciding when to break classes to small classes was challenging.
+* App has a lots of ViewModels and managing their dependencies and deciding when to break classes to small classes was challenging.
 
 ## Resimage
 
@@ -135,7 +136,7 @@ A command line tool for resizing and compression images.
 
 <img src="images/resimage/01.png">
 
-🛠Technologies that been used: **Swift, SiwftCommandLineTools, CoreGraphics**
+🛠Technologies that been used: `Swift`, `SwiftPackageManager`, `CoreGraphics`
 
 ### ✅ Things that I learned:
 * How to build a simple command line utility using swift
@@ -144,13 +145,37 @@ A command line tool for resizing and compression images.
 ### ⬇️ Download
 * [**Github**](https://github.com/shaysugg/Resimage)
 
+## SuperHeroesUI
+
+
+A small app that I wrote to get more familiar with SwiftUI and Combine. It lets you search through superheroes and save your favorite ones.
+
+<table>
+    <tr>
+        <td><img src="images/superheroesui/01.PNG"></td>
+        <td><img src="images/superheroesui/02.PNG"></td>
+        <td><img src="images/superheroesui/03.PNG"></td>
+    </tr>
+
+</table>
+
+Technologies that been used: `Swift`, `SwiftUI`, `Combine`
+
+### ✅ Things that I learned:
+* How to make a customised UI using SwiftUI
+* How to bind SwiftUI views with ViewModel classes using Combine.
+* How to use Combine publishers.
+
+### ⬇️ Repo
+* [**Github**](https://github.com/shaysugg/SuperHerosUI)
+
 ## SegmentedPageViewController
 
 A UIPageViewController synced with a custom SegmentedControll.
 
 <img src="images/spvc/01.gif">
 
-🛠Technologies that been used: **Swift, UIKit**
+🛠Technologies that been used: `Swift`, `UIKit`
 
 ### ⬇️ Repo
 * [**Github**](https://github.com/shaysugg/SegmentedPageViewController)
