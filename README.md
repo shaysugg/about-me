@@ -99,7 +99,7 @@ My first project, a farsi todo-list app which using Shamsi calendar to save todo
 
 *[Project is still on development and not fully completed yet.]*
 
-I got hired by a team of developers who is been working on Rewardo Application. I was responsible for writing and maintaining the iOS client app. It uses REST api to connect with backend server. The app allows users to sign-up, create challenges, participate in other users challenges and win prizes.
+I got hired by a team of developers who's been working on a project that calls Rewardo. I was responsible for writing and maintaining the iOS client app. It uses REST api to connect with backend server. The app allows users to sign-up, create challenges, participate in other users challenges and win prizes.
 
 
 🛠Technologies that been used: `Swift`, `MVVM`, `RXSwift`, `Alamofire`, `SwiftPackageManager`, `XCTest`
@@ -132,7 +132,7 @@ I got hired by a team of developers who is been working on Rewardo Application. 
 
 ## Resimage
 
-A command line tool for resizing and compression images.
+A command line tool for resizing and compressing images.
 
 <img src="images/resimage/01.png">
 
